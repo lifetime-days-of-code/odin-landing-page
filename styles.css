@@ -1,0 +1,12 @@
+:root {
+  --color-main-dark: #1f2937;
+  --color-main-light-200: #3992f6;
+  --color-main-light-100: #f9faf8;
+  --color-main-neutral: #e5e7eb;
+  --color-white: #ffffff;
+
+  --text-large: 3rem;
+  --text-medium: 2.25rem;
+  --text-small: 1.5rem;
+  --text-extra-small: 1.125rem;
+}
