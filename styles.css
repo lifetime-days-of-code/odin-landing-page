@@ -33,3 +33,56 @@ ul {
 a {
   text-decoration: none;
 }
+
+body {
+  background-color: var(--color-main-dark);
+  font-size: var(--text-extra-small);
+}
+
+.page__header,
+.page__main-heading {
+  color: var(--color-main-light-100);
+}
+
+.page__logo {
+  font-size: var(--text-small);
+}
+
+.page__nav-links {
+  color: var(--color-main-neutral);
+}
+
+.page__main-heading {
+  font-size: var(--text-large);
+}
+
+.page__secondary-section {
+  background-color: var(--color-main-light-100);
+}
+
+.page__secondary-heading {
+  font-size: var(--text-medium);
+  color: var(--color-main-dark);
+}
+
+.page__quote-section {
+  background-color: var(--color-main-neutral);
+}
+
+.page__quote {
+  font-size: var(--text-medium);
+  font-style: italic;
+}
+
+.page__quote-author {
+  color: var(--color-main-dark);
+}
+
+.page__call-to-action {
+  background-color: var(--color-main-light-200);
+  color: var(--color-main-light-100);
+}
+
+.page__footer {
+  color: var(--color-main-light-100);
+}

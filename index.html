@@ -11,19 +11,19 @@
 
 <body>
   <div class="page">
-    <header>
-      <div>Header Logo</div>
+    <header class="page__header">
+      <div class="page__logo">Header Logo</div>
       <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+        <ul class="page__navigation">
+          <li class="page__nav-items"><a href="#" class="page__nav-links">Home</a></li>
+          <li class="page__nav-items"><a href="#" class="page__nav-links">About</a></li>
+          <li class="page__nav-items"><a href="#" class="page__nav-links">Contact</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <section>
-        <h1>This website is awesome</h1>
+      <section class="page__hero-section">
+        <h1 class="page__main-heading">This website is awesome</h1>
         <p>This website has some subtext that goes under the main title. It's smaller font and the color is lower
           contrast</p>
         <a href="#">Sign up</a>
@@ -31,8 +31,9 @@
           <img src="#" alt="this is a placeholder image">
         </figure>
       </section>
-      <section>
-        <h2>Some random information</h2>
+
+      <section class="page__secondary-section">
+        <h2 class="page__secondary-heading">Some random information</h2>
         <ul>
           <li>
             <figure><img src="" alt="">
@@ -56,18 +57,19 @@
           </li>
         </ul>
       </section>
-      <section>
-        <p>This is inspiring quote, or a testimonial from a customer.Maybe it's just filling up space, or maybe people
+      <section class="page__quote-section">
+        <p class="page__quote">This is inspiring quote, or a testimonial from a customer.Maybe it's just filling up
+          space, or maybe people
           will actually read it. Who knows? All I know is that it looks nice.</p>
-        <span>Thor, From the Avengers</span>
+        <span class="page__quote-author">Thor, From the Avengers</span>
       </section>
-      <aside>
+      <aside class="page__call-to-action">
         <p>Call to action! It's time!</p>
         <p>Sign up for our product bu clicking that button right over there!</p>
         <a href="#">Sign up</a>
       </aside>
     </main>
-    <footer>
+    <footer class="page__footer">
       <small>Copyright © The Odin Project 2022 </small>
     </footer>
   </div>
