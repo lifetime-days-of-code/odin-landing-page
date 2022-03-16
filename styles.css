@@ -56,6 +56,7 @@ img {
 
 .page {
   padding: 0 1.5rem;
+  /* TODO Add max-width because to prevent stretching on xl screen size */
 }
 
 .page__header,
