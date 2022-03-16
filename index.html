@@ -5,6 +5,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./styles.css">
   <title>Landing Page | Odin Project</title>
 </head>
@@ -23,12 +26,15 @@
     </header>
     <main>
       <section class="page__hero-section">
-        <h1 class="page__main-heading">This website is awesome</h1>
-        <p>This website has some subtext that goes under the main title. It's smaller font and the color is lower
-          contrast</p>
-        <a href="#">Sign up</a>
-        <figure>
-          <img src="#" alt="this is a placeholder image">
+        <div>
+          <h1 class="page__main-heading">This website is awesome</h1>
+          <p class="page__main-text">This website has some subtext that goes under the main title. It's smaller font and
+            the color is lower
+            contrast</p>
+          <a href="#" class="page__button">Sign up</a>
+        </div>
+        <figure class="page__hero-image-container">
+          <img class="page__hero-image" src="./assets/leafs.jpg" alt="this is a placeholder image">
         </figure>
       </section>
 
@@ -66,7 +72,7 @@
       <aside class="page__call-to-action">
         <p>Call to action! It's time!</p>
         <p>Sign up for our product bu clicking that button right over there!</p>
-        <a href="#">Sign up</a>
+        <a href="#" class="page__button">Sign up</a>
       </aside>
     </main>
     <footer class="page__footer">
